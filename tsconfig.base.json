@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@study-chatapp/data-access-users": [
+        "libs/data-access-users/src/index.ts"
+      ],
+      "@study-chatapp/my-prisma-schema": ["libs/my-prisma-schema/src/index.ts"],
+      "@study-chatapp/prisma-client-main": [
+        "libs/prisma-client-main/src/index.ts"
+      ],
+      "@study-chatapp/prisma-schema-main": [
+        "libs/prisma-schema-main/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
