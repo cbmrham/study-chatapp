@@ -2,7 +2,9 @@
   "name": "@study-chatapp/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:all": "nx run-many -t serve --all"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
